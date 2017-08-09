@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/eventmachine/eventmachine.git
+  revision: 6f22a86950525b014820a64b628f352dcc7035b7
+  branch: master
+  specs:
+    eventmachine (1.2.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -53,7 +60,6 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.3)
     execjs (2.2.1)
     ffi (1.9.6)
     formatador (0.2.5)
@@ -184,6 +190,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   coffee-rails (~> 4.0.0)
+  eventmachine!
   guard
   guard-livereload
   guard-rails
